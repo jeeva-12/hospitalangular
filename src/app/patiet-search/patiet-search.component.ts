@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class PatietSearchComponent {
 
+  id=""
+
+  search=()=>
+  {
+    let data:any={
+      "id":this.id
+    }
+    console.log(data)
+  }
+
 }
